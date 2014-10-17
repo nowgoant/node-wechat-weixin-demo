@@ -1,0 +1,181 @@
+.box {
+  width: 1000px;
+  min-height: 600px;
+  padding: 20px;
+  margin: 0 auto;
+}
+@-webkit-keyframes flowRight {
+  from {
+    -webkit-transform: translate(-50px, 0);
+    -moz-transform: translate(-50px, 0);
+    -ms-transform: translate(-50px, 0);
+    -o-transform: translate(-50px, 0);
+    transform: translate(-50px, 0);
+    opacity: 0;
+  }
+  to {
+    -webkit-transform: translate(0, 0);
+    -moz-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    -o-transform: translate(0, 0);
+    transform: translate(0, 0);
+    opacity: 1;
+  }
+}
+@-moz-keyframes flowRight {
+  from {
+    -webkit-transform: translate(-50px, 0);
+    -moz-transform: translate(-50px, 0);
+    -ms-transform: translate(-50px, 0);
+    -o-transform: translate(-50px, 0);
+    transform: translate(-50px, 0);
+    opacity: 0;
+  }
+  to {
+    -webkit-transform: translate(0, 0);
+    -moz-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    -o-transform: translate(0, 0);
+    transform: translate(0, 0);
+    opacity: 1;
+  }
+}
+@keyframes flowRight {
+  from {
+    -webkit-transform: translate(-50px, 0);
+    -moz-transform: translate(-50px, 0);
+    -ms-transform: translate(-50px, 0);
+    -o-transform: translate(-50px, 0);
+    transform: translate(-50px, 0);
+    opacity: 0;
+  }
+  to {
+    -webkit-transform: translate(0, 0);
+    -moz-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    -o-transform: translate(0, 0);
+    transform: translate(0, 0);
+    opacity: 1;
+  }
+}
+@-webkit-keyframes flowLeft {
+  from {
+    -moz-transform: translate(50px, 0);
+    -ms-transform: translate(50px, 0);
+    -o-transform: translate(50px, 0);
+    -webkit-transform: translate(50px, 0);
+    transform: translate(50px, 0);
+    opacity: 0;
+  }
+  to {
+    -moz-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    -o-transform: translate(0, 0);
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+    opacity: 1;
+  }
+}
+@-moz-keyframes flowLeft {
+  from {
+    -moz-transform: translate(50px, 0);
+    -ms-transform: translate(50px, 0);
+    -o-transform: translate(50px, 0);
+    -webkit-transform: translate(50px, 0);
+    transform: translate(50px, 0);
+    opacity: 0;
+  }
+  to {
+    -moz-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    -o-transform: translate(0, 0);
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+    opacity: 1;
+  }
+}
+@keyframes flowLeft {
+  from {
+    -moz-transform: translate(50px, 0);
+    -ms-transform: translate(50px, 0);
+    -o-transform: translate(50px, 0);
+    -webkit-transform: translate(50px, 0);
+    transform: translate(50px, 0);
+    opacity: 0;
+  }
+  to {
+    -moz-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    -o-transform: translate(0, 0);
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+    opacity: 1;
+  }
+}
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+  padding: 0;
+  margin: 0;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  font-family: "Microsoft Yahei", Arial, Helvetica, sans-serif;
+}
+.box {
+  background: #37b1c6 url(http://img1sw.baidu.com/szweb/gw/static/pure/static/intro/images/page_head_dd0eac9.png) repeat-x left top;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 344px;
+  height: 426px;
+  margin-left: -172px;
+  margin-top: -203px;
+}
+.center .big-pic {
+  width: 344px;
+  height: 344px;
+  position: relative;
+  -webkit-animation: flowRight 0.5s ease-out;
+  -moz-animation: flowRight 0.5s ease-out;
+  -o-animation: flowRight 0.5s ease-out;
+  animation: flowRight 0.5s ease-out;
+}
+.center .big-text {
+  text-align: center;
+  margin: 20px 0;
+  -webkit-animation: flowLeft 0.5s ease-out;
+  -moz-animation: flowLeft 0.5s ease-out;
+  -o-animation: flowLeft 0.5s ease-out;
+  animation: flowLeft 0.5s ease-out;
+}
+/*# sourceMappingURL=scanWechat.css.map */
